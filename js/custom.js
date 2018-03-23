@@ -33,6 +33,7 @@ $(document).ready(function(){
 	    },200);
 	    $('.navbar-wrapper').removeClass('default-menu');
 	    $(this).fadeOut();
+	$("#nav-show").hide(); // This line is edited.
 
 
 	$('#nav-show').click(function(x){
