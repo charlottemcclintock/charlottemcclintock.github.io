@@ -90,9 +90,61 @@
       </div>
   </section>
   <!--contact end-->
+	<!--modernizr js-->
+	<script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
+	<!--jquary min js-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
-<!--for theme custom jquery-->
-<script src="js/custom.js"></script>
+	<!--for placeholder jquery-->
+	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 
-</body>
-</html>
+	<!--for header jquery-->
+	<script type="text/javascript" src="js/stickUp.js"></script>
+	<script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	jQuery(function($) {
+	$(document).ready( function() {
+	  //enabling stickUp on the '.navbar-wrapper' class
+		$('.navbar-wrapper').stickUp({
+			parts: {
+			  0: 'banner',
+			  1: 'aboutus',
+			  2: 'skillset',
+			  3: 'experience',
+			  4: 'education',
+			  5: 'ourwork',
+			  6: 'contact'
+			},
+			itemClass: 'menuItem',
+			itemHover: 'active',
+			topMargin: 'auto'
+			});
+		});
+
+
+	});
+	</script>
+	<script>
+		$('#banner').superslides({
+		  animation: 'fade',
+		  play: 5000
+		});
+	</script>
+
+	<!--for portfolio jquery-->
+	<script src="js/jquery.isotope.js" type="text/javascript"></script>
+	<link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
+	<link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
+	<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
+
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	<script defer src="js/slideroption.js"></script>
+
+	<!--for theme custom jquery-->
+	<script src="js/custom.js"></script>
+
+	</body>
+	</html>
