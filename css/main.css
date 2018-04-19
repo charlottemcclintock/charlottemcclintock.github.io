@@ -51,20 +51,41 @@ h2 {
 }
 h3 {
 	font-family: Garamond, serif;
-	font-size: 14px;
+	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
-	line-height: 15px;
+	font-weight: 800;
+	line-height: 20px;
+	padding-bottom: 7px;
+
 }
 h4 {
 	font-family: Garamond, serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: italic;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 15px;
+	line-height: 17px;
 }
+h5 {
+	font-family: Garamond, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 19px;
+	padding-top: 6px;
+}
+h6 {
+	font-family: Garamond, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 19px;
+}
+
+
 p {
 	font-family: Garamond,serif;
 	font-size: 16px;
@@ -74,6 +95,16 @@ p {
 	line-height: 20px;
   padding-top: 10px;
 }
+pc {
+	font-family: Garamond,serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  padding-top: 0px;
+}
+
 blockquote {
 	font-family: Garamond, serif;
 	font-size: 21px;
@@ -122,6 +153,21 @@ pre {
 
 /* Style page content */
 .main {
+    margin-left: 285px; /* Same as the width of the sidebar */
+    padding-top: 100px;
+    font-family: Garamond, serif;
+    color: #000000;
+    margin-right: 200px;
+}
+.cv-style {
+    margin-left: 285px; /* Same as the width of the sidebar */
+    padding-top: 100px;
+    font-family: Garamond, serif;
+    color: #000000;
+    margin-right: 300px;
+}
+
+.home {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 100px;
     font-family: Garamond, serif;
