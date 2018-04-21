@@ -14,7 +14,7 @@ html { font-size: 100%;
 }
 body {
 	color:#000000;
-	font-family: Garamond, serif;
+	font-family: 'Garamond', 'EB Garamond' serif;
 	font-weight: 400;
 	position:relative;
 	width:100%;
@@ -34,7 +34,7 @@ img {
 }
 
 h1 {
-	font-family: Garamond,  serif;
+	font-family: 'Garamond', 'EB Garamond'  serif;
 	font-size: 40px;
 	font-style: regular;
 	font-variant: normal;
@@ -43,7 +43,7 @@ h1 {
 	padding-bottom: 10px;
 }
 h2 {
-	font-family: Garamond, serif;
+	font-family: 'Garamond', 'EB Garamond' serif;
 	font-size: 18px;
 	font-style: regular;
 	font-variant: normal;
@@ -52,7 +52,7 @@ h2 {
   padding-bottom: 3px;
 }
 h3 {
-	font-family: Garamond, serif;
+	font-family: 'Garamond', 'EB Garamond' serif;
 	font-size: 18px;
 	font-style: regular;
 	font-variant: normal;
@@ -62,7 +62,7 @@ h3 {
 
 }
 h4 {
-	font-family: Garamond, serif;
+	font-family: 'Garamond', 'EB Garamond' serif;
 	font-size: 16px;
 	font-style: italic;
 	font-variant: normal;
@@ -70,7 +70,7 @@ h4 {
 	line-height: 17px;
 }
 h5 {
-	font-family: Garamond, serif;
+	font-family: 'Garamond', 'EB Garamond' serif;
 	font-size: 16px;
 	font-style: regular;
 	font-variant: normal;
@@ -79,7 +79,7 @@ h5 {
 	padding-top: 6px;
 }
 h6 {
-	font-family: Garamond, serif;
+	font-family: 'Garamond', 'EB Garamond' serif;
 	font-size: 16px;
 	font-style: regular;
 	font-variant: normal;
@@ -89,7 +89,7 @@ h6 {
 
 
 p {
-	font-family: Garamond,serif;
+	font-family: 'Garamond', 'EB Garamond'serif;
 	font-size: 16px;
 	font-style: regular;
 	font-variant: normal;
@@ -98,7 +98,7 @@ p {
   padding-top: 10px;
 }
 pc {
-	font-family: Garamond,serif;
+	font-family: 'Garamond', 'EB Garamond'serif;
 	font-size: 16px;
 	font-style: regular;
 	font-variant: normal;
@@ -108,7 +108,7 @@ pc {
 }
 
 blockquote {
-	font-family: Garamond, serif;
+	font-family: 'Garamond', 'EB Garamond' serif;
 	font-size: 21px;
 	font-style: regular;
 	font-variant: normal;
@@ -116,7 +116,7 @@ blockquote {
 	line-height: 30px;
 }
 pre {
-	font-family: Garamond, serif;
+	font-family: 'Garamond', 'EB Garamond' serif;
 	font-size: 13px;
 	font-style: regular;
 	font-variant: normal;
@@ -142,7 +142,7 @@ pre {
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-		font-family: Garamond, serif;
+		font-family: 'Garamond', 'EB Garamond' serif;
     font-size: 16px;
     color: #000000;
     display: block;
@@ -158,14 +158,14 @@ pre {
 .main {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 100px;
-    font-family: Garamond, serif;
+    font-family: 'Garamond', 'EB Garamond' serif;
     color: #000000;
     margin-right: 200px;
 }
 .cv-style {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 100px;
-    font-family: Garamond, serif;
+    font-family: 'Garamond', 'EB Garamond' serif;
     color: #000000;
     margin-right: 300px;
 }
@@ -173,7 +173,7 @@ pre {
 .portfolio {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 100px;
-    font-family: Garamond, serif;
+    font-family: 'Garamond', 'EB Garamond' serif;
     color: #000000;
     margin-right: 50px;
 }
@@ -181,7 +181,7 @@ pre {
 .home {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 100px;
-    font-family: Garamond, serif;
+    font-family: 'Garamond', 'EB Garamond' serif;
     color: #000000;
     margin-right: 25%;
 
