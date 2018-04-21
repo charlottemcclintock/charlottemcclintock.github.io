@@ -12,7 +12,7 @@ html { font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-rendering: optimizelegibility;
-	font-family: Garamond, EB Garamond, Georgia, serif;
+	font-family: Garamond, 'EB Garamond', Georgia, serif;
 }
 body {
 	color:#000000;
@@ -152,8 +152,8 @@ pre {
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: #96d3f7;
+.sidenav e:hover {
+		text-decoration: underline;
 }
 
 /* Style page content */
