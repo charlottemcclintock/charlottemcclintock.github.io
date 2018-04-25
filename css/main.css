@@ -38,7 +38,7 @@ img {
 h1 {
 	font-family: 'Garamond', 'EB Garamond'  serif;
 	font-size: 40px;
-	font-style: regular;
+	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 40px;
@@ -56,7 +56,7 @@ h2 {
 h3 {
 	font-family: 'Garamond', 'EB Garamond' serif;
 	font-size: 18px;
-	font-style: regular;
+	font-style: normal;
 	font-variant: normal;
 	font-weight: 700;
 	line-height: 20px;
@@ -164,6 +164,10 @@ pre {
     color: #000000;
     margin-right: 200px;
 }
+.main z:hover {
+	background-color: black; /* Gray */
+	color: white;
+}
 .cv-style {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 100px;
@@ -179,6 +183,25 @@ pre {
     color: #000000;
     margin-right: 50px;
 }
+
+.logo {
+-webkit-filter: grayscale(100%);
+-webkit-transition: .5s ease-in-out;
+-moz-filter: grayscale(100%);
+-moz-transition: .5s ease-in-out;
+-o-filter: grayscale(100%);
+-o-transition: .5s ease-in-out;
+}
+
+.logo:hover {
+-webkit-filter: grayscale(0%);
+-webkit-transition: .5s ease-in-out;
+-moz-filter: grayscale(0%);
+-moz-transition: .5s ease-in-out;
+-o-filter: grayscale(0%);
+-o-transition: .5s ease-in-out;
+}
+
 
 .home {
     margin-left: 285px; /* Same as the width of the sidebar */
@@ -216,8 +239,8 @@ pre {
 
 .big-button {
     background-color: white;
-		width: 30%;
-		height: 100px;
+		width: 25%;
+		height: 70px;
     color: black;
     border: 1px solid black; /* Gray */
     padding: 20px 20px;
@@ -267,7 +290,7 @@ pre {
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 30%;
+    width: 23%;
 }
 
 /* Clear floats after rows */
@@ -294,4 +317,5 @@ pre {
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
+
     }
