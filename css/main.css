@@ -157,11 +157,11 @@ pre {
 
 /* Style page content */
 .main {
-    margin-left: 285px; /* Same as the width of the sidebar */
+    margin-left: 20%; /* Same as the width of the sidebar */
     padding-top: 100px;
     font-family: 'Garamond', 'EB Garamond' serif;
     color: #000000;
-    margin-right: 200px;
+    margin-right: 20%;
 }
 
 .main z:hover {
@@ -204,7 +204,7 @@ pre {
 
 
 .home {
-    margin-left: 285px; /* Same as the width of the sidebar */
+    margin-left: 20%; /* Same as the width of the sidebar */
     padding-top: 10%;
     font-family: 'Garamond', 'EB Garamond' serif;
     color: #000000;
@@ -212,7 +212,7 @@ pre {
 }
 
 .about {
-    margin-left: 285px; /* Same as the width of the sidebar */
+    margin-left: 20%; /* Same as the width of the sidebar */
 		padding-top: 10%;
     font-family: 'Garamond', 'EB Garamond' serif;
     color: #000000;
