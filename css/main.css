@@ -92,7 +92,7 @@ h6 {
 
 p {
 	font-family: 'Garamond', 'EB Garamond'serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -101,7 +101,7 @@ p {
 }
 pc {
 	font-family: 'Garamond', 'EB Garamond'serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-style: regular;
 	font-variant: normal;
 	font-weight: 400;
@@ -144,8 +144,9 @@ pre {
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
+		text-align: left;
 		font-family: 'Garamond', 'EB Garamond' serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #000000;
     display: block;
 }
