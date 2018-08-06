@@ -209,15 +209,15 @@ pre {
     padding-top: 10%;
     font-family: 'Garamond', 'EB Garamond' serif;
     color: #000000;
-    margin-right: 25%;
+    margin-right: 35%;
 }
 
 .about {
     margin-left: 20%; /* Same as the width of the sidebar */
-		padding-top: 10%;
+		padding-top: 8%;
     font-family: 'Garamond', 'EB Garamond' serif;
     color: #000000;
-    margin-right: 40%;
+    margin-right: 32%;
 }
 .about img {
 	padding:7px;
