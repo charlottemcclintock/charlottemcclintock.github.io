@@ -282,7 +282,7 @@ pre {
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 23%;
+    width: 32%;
 }
 
 /* Clear floats after rows */
