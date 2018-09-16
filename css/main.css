@@ -1,6 +1,6 @@
 
 /*----------------------------------------------------
-	1. CSS Reset
+	1. SET TEXT STYLES
 ------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond);
 
@@ -126,7 +126,9 @@ pre {
 	line-height: 18px;
 }
 
-
+/*----------------------------------------------------
+	2. SET PAGE STYLES
+------------------------------------------------------*/
 
 /* The sidebar menu */
 .sidenav {
@@ -185,25 +187,6 @@ pre {
     margin-right: 50px;
 }
 
-.logo {
--webkit-filter: grayscale(100%);
--webkit-transition: .5s ease-in-out;
--moz-filter: grayscale(100%);
--moz-transition: .5s ease-in-out;
--o-filter: grayscale(100%);
--o-transition: .5s ease-in-out;
-}
-
-.logo:hover {
--webkit-filter: grayscale(0%);
--webkit-transition: .5s ease-in-out;
--moz-filter: grayscale(0%);
--moz-transition: .5s ease-in-out;
--o-filter: grayscale(0%);
--o-transition: .5s ease-in-out;
-}
-
-
 .home {
     margin-left: 20%; /* Same as the width of the sidebar */
     padding-top: 10%;
@@ -231,6 +214,9 @@ pre {
     .sidenav a {font-size: 18px;}
 }
 
+/*----------------------------------------------------
+	4. BUTTONS
+------------------------------------------------------*/
 .button1 {
     background-color: white;
     color: black;
@@ -248,6 +234,7 @@ pre {
     background-color: black; /* Gray */
     color: white;
 }
+
 
 .big-button {
     background-color: white;
@@ -268,6 +255,28 @@ pre {
     background-color: black; /* Gray */
     color: white;
 		}
+
+/*----------------------------------------------------
+	4. PORTFOLIO STUFF
+------------------------------------------------------*/
+
+.logo {
+-webkit-filter: grayscale(100%);
+-webkit-transition: .5s ease-in-out;
+-moz-filter: grayscale(100%);
+-moz-transition: .5s ease-in-out;
+-o-filter: grayscale(100%);
+-o-transition: .5s ease-in-out;
+}
+
+.logo:hover {
+-webkit-filter: grayscale(0%);
+-webkit-transition: .5s ease-in-out;
+-moz-filter: grayscale(0%);
+-moz-transition: .5s ease-in-out;
+-o-filter: grayscale(0%);
+-o-transition: .5s ease-in-out;
+}
 
 .row {
     margin: 8px -16px;
