@@ -2,7 +2,8 @@
 /*----------------------------------------------------
 	1. SET TEXT STYLES
 ------------------------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+/* @import url('https://fonts.googleapis.com/css?family=Fira+Sans:extralight,light,medium,regular,semibold,bold,bolditalic'); */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900');
 
 * {
 	padding:0;
@@ -12,12 +13,12 @@ html { font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-rendering: optimizelegibility;
-	font-family: Garamond, 'EB Garamond', Georgia, serif;
+	font-family: 'Fira Sans', sans-serif;
 }
 body {
 	color:#000000;
-	font-family: 'Garamond', 'EB Garamond' serif;
-	font-weight: 400;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
 	position:relative;
 	width:100%;
 	height:100%;
@@ -30,31 +31,36 @@ a {
 	text-decoration:none;
 	color:#fff;
 	outline:none;
+	font-weight: 400;
 }
+b {
+	text-decoration:none;
+	color:#fff;
+	outline:none;
+	font-weight: bold;
+}
+
 img {
 	max-width:100%;
 }
 
 h1 {
-	font-family: 'Garamond', 'EB Garamond'  serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 40px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
+	font-weight: semi-bold;
 	line-height: 40px;
 	padding-bottom: 10px;
 }
 h2 {
-	font-family: 'Garamond', 'EB Garamond' serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 20px;
 	font-style: regular;
-	font-variant: normal;
-	font-weight: 500;
+	font-weight: 400;
 	line-height: 20px;
   padding-bottom: 3px;
 }
 h3 {
-	font-family: 'Garamond', 'EB Garamond' serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
@@ -64,24 +70,22 @@ h3 {
 
 }
 h4 {
-	font-family: 'Garamond', 'EB Garamond' serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 20px;
 	font-style: italic;
-	font-variant: normal;
 	font-weight: 500;
 	line-height: 20px;
 }
 h5 {
-	font-family: 'Garamond', 'EB Garamond' serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 	font-style: regular;
-	font-variant: normal;
 	font-weight: 800;
 	line-height: 19px;
 	padding-top: 6px;
 }
 h6 {
-	font-family: 'Garamond', 'EB Garamond' serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 	font-style: regular;
 	font-variant: normal;
@@ -91,26 +95,25 @@ h6 {
 
 
 p {
-	font-family: 'Garamond', 'EB Garamond'serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 250;
 	line-height: 20px;
   padding-top: 10px;
 }
 pc {
-	font-family: 'Garamond', 'EB Garamond'serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 18px;
 	font-style: regular;
-	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
   padding-top: 0px;
 }
 
 blockquote {
-	font-family: 'Garamond', 'EB Garamond' serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 21px;
 	font-style: regular;
 	font-variant: normal;
@@ -118,10 +121,9 @@ blockquote {
 	line-height: 30px;
 }
 pre {
-	font-family: 'Garamond', 'EB Garamond' serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 13px;
 	font-style: regular;
-	font-variant: normal;
 	font-weight: 400;
 	line-height: 18px;
 }
@@ -147,7 +149,7 @@ pre {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
 		text-align: left;
-		font-family: 'Garamond', 'EB Garamond' serif;
+		font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     color: #000000;
     display: block;
@@ -162,7 +164,7 @@ pre {
 .main {
     margin-left: 20%; /* Same as the width of the sidebar */
     padding-top: 100px;
-    font-family: 'Garamond', 'EB Garamond' serif;
+    font-family: 'Fira Sans', sans-serif;
     color: #000000;
     margin-right: 20%;
 }
@@ -174,7 +176,7 @@ pre {
 .cv-style {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 100px;
-    font-family: 'Garamond', 'EB Garamond' serif;
+    font-family: 'Fira Sans', sans-serif;
     color: #000000;
     margin-right: 300px;
 }
@@ -182,7 +184,7 @@ pre {
 .portfolio {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 100px;
-    font-family: 'Garamond', 'EB Garamond' serif;
+    font-family: 'Fira Sans', sans-serif;
     color: #000000;
     margin-right: 50px;
 }
@@ -190,7 +192,7 @@ pre {
 .home {
     margin-left: 20%; /* Same as the width of the sidebar */
     padding-top: 9%;
-    font-family: 'Garamond', 'EB Garamond' serif;
+    font-family: 'Fira Sans', sans-serif;
     color: #000000;
     margin-right: 35%;
 }
@@ -198,7 +200,7 @@ pre {
 .about {
     margin-left: 20%; /* Same as the width of the sidebar */
 		padding-top: 8%;
-    font-family: 'Garamond', 'EB Garamond' serif;
+    font-family: 'Fira Sans', sans-serif;
     color: #000000;
     margin-right: 32%;
 }
@@ -221,11 +223,12 @@ pre {
     background-color: white;
     color: black;
     border: 1px solid black; /* Gray */
-    padding: 10px 20px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 18px;
+		font-weight: light;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
@@ -238,10 +241,10 @@ pre {
 
 .big-button {
     background-color: white;
-		width: 25%;
-		height: 70px;
+		width: 80%;
+		height: 10%;
     color: black;
-    border: 1px solid black; /* Gray */
+    border: 1px solid white; /* Gray */
     padding: 20px 20px;
     text-align: center;
     text-decoration: none;
@@ -260,7 +263,7 @@ pre {
 	4. PORTFOLIO STUFF
 ------------------------------------------------------*/
 
-.logo {
+/* .logo {
 -webkit-filter: grayscale(100%);
 -webkit-transition: .5s ease-in-out;
 -moz-filter: grayscale(100%);
@@ -276,7 +279,7 @@ pre {
 -moz-transition: .5s ease-in-out;
 -o-filter: grayscale(0%);
 -o-transition: .5s ease-in-out;
-}
+} */
 
 .row {
     margin: 8px -16px;
@@ -317,4 +320,10 @@ pre {
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
+}
+
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
 }
