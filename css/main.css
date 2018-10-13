@@ -196,6 +196,13 @@ pre {
     color: #000000;
     margin-right: 35%;
 }
+.index {
+    margin-left: 20%; /* Same as the width of the sidebar */
+    padding-top: 6%;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000000;
+    margin-right: 35%;
+}
 
 .about {
     margin-left: 20%; /* Same as the width of the sidebar */
