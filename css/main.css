@@ -4,6 +4,7 @@
 ------------------------------------------------------*/
 /* @import url('https://fonts.googleapis.com/css?family=Fira+Sans:extralight,light,medium,regular,semibold,bold,bolditalic'); */
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 * {
 	padding:0;
@@ -13,11 +14,11 @@ html { font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-rendering: optimizelegibility;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 }
 body {
 	color:#000000;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-weight: 300;
 	position:relative;
 	width:100%;
@@ -45,14 +46,14 @@ img {
 }
 
 h1 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 40px;
 	font-weight: semi-bold;
 	line-height: 40px;
 	padding-bottom: 10px;
 }
 h2 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	font-style: regular;
 	font-weight: 400;
@@ -60,7 +61,7 @@ h2 {
   padding-bottom: 3px;
 }
 h3 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
@@ -70,14 +71,14 @@ h3 {
 
 }
 h4 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	font-style: italic;
 	font-weight: 500;
 	line-height: 20px;
 }
 h5 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 16px;
 	font-style: regular;
 	font-weight: 800;
@@ -85,7 +86,7 @@ h5 {
 	padding-top: 6px;
 }
 h6 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 16px;
 	font-style: regular;
 	font-variant: normal;
@@ -95,7 +96,7 @@ h6 {
 
 
 p {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
@@ -104,7 +105,7 @@ p {
   padding-top: 10px;
 }
 pc {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 18px;
 	font-style: regular;
 	font-weight: 400;
@@ -113,7 +114,7 @@ pc {
 }
 
 blockquote {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 21px;
 	font-style: regular;
 	font-variant: normal;
@@ -121,7 +122,7 @@ blockquote {
 	line-height: 30px;
 }
 pre {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 13px;
 	font-style: regular;
 	font-weight: 400;
@@ -149,7 +150,7 @@ pre {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
 		text-align: left;
-		font-family: 'Fira Sans', sans-serif;
+		font-family: 'Playfair Display', serif;
     font-size: 20px;
     color: #000000;
     display: block;
@@ -164,7 +165,7 @@ pre {
 .main {
     margin-left: 20%; /* Same as the width of the sidebar */
     padding-top: 100px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #000000;
     margin-right: 20%;
 }
@@ -176,7 +177,7 @@ pre {
 .cv-style {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 100px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #000000;
     margin-right: 300px;
 }
@@ -184,7 +185,7 @@ pre {
 .portfolio {
     margin-left: 285px; /* Same as the width of the sidebar */
     padding-top: 65px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #000000;
     margin-right: 50px;
 }
@@ -192,14 +193,14 @@ pre {
 .home {
     margin-left: 20%; /* Same as the width of the sidebar */
     padding-top: 9%;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #000000;
     margin-right: 35%;
 }
 .index {
     margin-left: 20%; /* Same as the width of the sidebar */
     padding-top: 6%;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #000000;
     margin-right: 35%;
 }
@@ -207,7 +208,7 @@ pre {
 .about {
     margin-left: 20%; /* Same as the width of the sidebar */
 		padding-top: 8%;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #000000;
     margin-right: 32%;
 }
