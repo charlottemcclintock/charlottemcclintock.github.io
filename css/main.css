@@ -167,7 +167,7 @@ pre {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav e:hover {
-		text-decoration: underline;
+		font-style: italic;
 }
 
 /* Style page content */
