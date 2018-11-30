@@ -48,18 +48,19 @@ img {
 h1 {
 	font-family: 'Playfair Display', serif;
 	font-size: 40px;
-	font-weight: semi-bold;
+	font-weight: bold;
 	line-height: 40px;
 	padding-bottom: 10px;
 }
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
-	font-style: regular;
+	font-style: italic;
 	font-weight: 400;
 	line-height: 20px;
   padding-bottom: 3px;
 }
+
 h3 {
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
@@ -87,13 +88,21 @@ h5 {
 }
 h6 {
 	font-family: 'Playfair Display', serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-style: regular;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 19px;
 }
 
+h7 {
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+	font-style: regular;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 30px;
+}
 
 p {
 	font-family: 'Playfair Display', serif;
@@ -302,7 +311,7 @@ pre {
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 32%;
+    width: 30%;
 }
 
 /* Clear floats after rows */
