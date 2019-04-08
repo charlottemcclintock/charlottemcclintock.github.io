@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/charlottemcc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://charlottemcclintock.github.io
+  * I am charlottemcc (https://keybase.io/charlottemcc) on keybase.
+  * I have a public key ASBI2T19rzsPxZS3eezbXHxmTlFoTkHz--7zjGxyEYbXjwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012048d93d7daf3b0fc594b779ecdb5c7c664e51684e41f3fbeef38c6c721186d78f0a",
+      "host": "keybase.io",
+      "kid": "012048d93d7daf3b0fc594b779ecdb5c7c664e51684e41f3fbeef38c6c721186d78f0a",
+      "uid": "36e803b6bc656d3860c3fd9bae644619",
+      "username": "charlottemcc"
+    },
+    "merkle_root": {
+      "ctime": 1554736717,
+      "hash": "a18548e4947eaea15e67125a1b0314218b83dfff7313c210dd43afa7d502d3b4303e5053ac1ff02d0a8ce4a0b4784df0521a92552e32f05bddf2b36ff4c82ff0",
+      "hash_meta": "1d4fa2467222e93cb83fe2c1d3663cfbd344daf7d94e3320ed8efe4228a71334",
+      "seqno": 5118298
+    },
+    "service": {
+      "entropy": "3nwOV1QBKWty+TArMdrTSB4X",
+      "hostname": "charlottemcclintock.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1554736751,
+  "expire_in": 504576000,
+  "prev": "e59a1dd733af6aa5fcdd9d0f579d12b5c7f36e7420fff1bb44e83cfe7cbda118",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSNk9fa87D8WUt3ns21x8Zk5RaE5B8/vu84xschGG148Kp3BheWxvYWTESpcCB8Qg5Zod1zOvaqX83Z0PV50StcfzbnQg//G7ROg8/ny9oRjEIHuO/RG+rtCjQjksGNxduwgza96poeSX4M+uEeT8FkvKAgHCo3NpZ8RAO/VyQXjg27+ITMYEBgIv6l+w9xUt630HGD3CgSnJtZth+B/+4QeTF2M/iOe66V6Z/LdljBijrUZCXfM4vCS3CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEAxXnFGtS7ZZvb/tshhhyIgpMqW/L/EuZaII8jpFelKo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/charlottemcc
+
+==================================================================
