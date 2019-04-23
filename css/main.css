@@ -96,11 +96,11 @@ h5 {
 }
 h6 {
 	font-family: 'Noto Serif SC', serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-style: regular;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 22px;
+	line-height: 20px;
 	padding-top: 5px;
 }
 
@@ -170,7 +170,7 @@ pre {
     text-decoration: none;
 		text-align: left;
 		font-family: 'Noto Serif SC', serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #000000;
     display: block;
 }
@@ -309,7 +309,7 @@ pre {
 } */
 
 .row {
-    margin: 8px -16px;
+    margin: 0px -16px;
 }
 
 /* Add padding BETWEEN each column (if you want) */
@@ -318,7 +318,7 @@ pre {
     padding: 2px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
     float: left;
     width: 32%;
