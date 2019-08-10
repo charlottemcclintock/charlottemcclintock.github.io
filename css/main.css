@@ -55,17 +55,17 @@ img {
 
 h1 {
 	font-family: 'Noto Serif SC', serif;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
-	line-height: 50px;
-	padding-bottom: 10px;
+	line-height: 34px;
+	padding-bottom: 5px;
 }
 h2 {
 	font-family: 'Noto Serif SC', serif;
-	font-size: 20px;
+	font-size: 14px;
 	font-style: italic;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 15px;
   padding-bottom: 3px;
 }
 
@@ -96,21 +96,21 @@ h5 {
 }
 h6 {
 	font-family: 'Noto Serif SC', serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-style: regular;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 20px;
+	line-height: 18px;
 	padding-top: 5px;
 }
 
 h7 {
 	font-family: 'Noto Serif SC', serif;
-	font-size: 30px;
+	font-size: 24px;
 	font-style: regular;
 	font-variant: normal;
 	font-weight: 900;
-	line-height: 34px;
+	line-height: 24px;
 	padding-bottom: 20px;
 }
 
@@ -260,6 +260,11 @@ pre {
     transition-duration: 0.4s;
 }
 
+.intext {
+	color: black; 
+	text-decoration: underline
+}
+
 .button1:hover {
     background-color: black; /* Gray */
     color: white;
@@ -334,7 +339,7 @@ pre {
 /* Content */
 .content {
     background-color: white;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
