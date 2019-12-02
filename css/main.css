@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,500,600,700,900');
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
 * {
 	padding:0;
 	margin:0;
@@ -209,7 +209,7 @@ vert {
 
 .portfolio {
     margin-left: 285px; /* Same as the width of the sidebar */
-    padding-top: 65px;
+    padding-top: 45px;
     font-family: 'Noto Serif SC', serif;
     color: #000000;
     margin-right: 50px;
@@ -366,27 +366,3 @@ vert {
    display:block;
 }
 
-/* The "show" class is added to the filtered elements */
-.show {
-	display: block;
-  }
-  
-  /* Style the buttons */
-  .btn {
-	border: none;
-	outline: none;
-	padding: 12px 16px;
-	background-color: white;
-	cursor: pointer;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .btn:hover {
-	background-color: #ddd;
-  }
-  
-  /* Add a dark background color to the active button */
-  .btn.active {
-	background-color: #666;
-	 color: white;
-  }
