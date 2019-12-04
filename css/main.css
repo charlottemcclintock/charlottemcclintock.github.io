@@ -279,8 +279,7 @@ vert {
 
 .big-button {
     background-color: white;
-		width: 80%;
-		height: 10%;
+		width: 92%;
     color: black;
     border: 1px solid white; /* Gray */
     padding: 20px 20px;
@@ -289,7 +288,8 @@ vert {
     display: inline-block;
     font-size: 14px;
     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	height: 180px;
 }
 
 .big-button:hover {
