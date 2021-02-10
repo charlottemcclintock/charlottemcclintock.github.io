@@ -98,14 +98,11 @@
 <!-- Portfolio Gallery Grid -->
 
 <div id="myBtnContainer">
-    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-    <button class="btn" onclick="filterSelection('current')"> Current Projects</button>
-    <button class="btn" onclick="filterSelection('data')"> Applied Research</button>
-    <button class="btn" onclick="filterSelection('inter')"> Interactive Viz</button>
-    <button class="btn" onclick="filterSelection('story')"> Storytelling with Data</button>
-    <button class="btn" onclick="filterSelection('comm')"> Community Building</button>
-    <button class="btn" onclick="filterSelection('paid')"> Paid Work</button>
-
+    <button class="btn active" onclick="filterSelection('major')"> major works</button>
+    <button class="btn" onclick="filterSelection('data')"> applied research</button>
+    <button class="btn" onclick="filterSelection('public')"> publicly available</button>
+    <button class="btn" onclick="filterSelection('inter')"> interactive</button>
+    <button class="btn" onclick="filterSelection('all')"> show all</button>
   </div>
   </div>
    <br>
@@ -113,25 +110,44 @@
 
 <div class="row">
 
-<div class="column comm current">
+  <div class="column data major public">
     <div class="content">
-      <a role="button" class="big-button" href= "projects/dgl.html">
-      <h7>Digital Governance Lab at UVA</h7>
-      <h6>Teaching an undergraduate class on the technology of governance and the governance 
-        of technology to encourage students to engage with and pursue public interest technology.
+      <a role="button" class="big-button" href= "projects/courtwatch.html">
+      <h7>Court Watch for the ACLU of Colorado</h7>
+      <h6>Using volunteer collected court watch data to investigate Denver and Aurora county 
+        court practices for the ACLU of Colorado. 
       </h6></a>
     </div>
   </div>
 
-  <div class="column data paid current">
+  <div class="column data major">
     <div class="content">
-      <a role="button" class="big-button" href= "projects/sunrise.html">
-      <h7>Engagement Patterns in Climate Justice</h7>
-      <h6>Working with the Boston Hub of the Sunrise Movement to understand patterns of engagement among members of the movement.</h6></a>
+      <a role="button" class="big-button" href= "projects/tjach.html">
+      <h7>Race & Homelessness in Charlottesville</h7>
+      <h6>Working with the Thomas Jefferson Area Coalition for the Homeless to
+        understand the effect of race on the experience of homelessness.</h6></a>
     </div>
   </div>
 
-  <div class="column data paid inter current">
+  <div class="column data public major">
+    <div class="content">
+      <a role="button" class="big-button" href= "projects/pidl.html">
+        <h7>Public Interest Data Lab: Race in Child Welfare</h7>
+        <h6>Analyzed confidential foster care data to investigate claims of community claims of
+          racial disparity in the Charlottesville Child Welfare System.</h6></a>
+    </div>
+  </div>
+
+  <div class="column major public">
+    <div class="content">
+      <a role="button" class="big-button" href= "projects/brightest.html">
+      <h7>DataforClimate: Brightest Research</h7>
+      <h6>Using data and research to inform progressive climate organizing and activism - 
+        focused on insights in political and communication strategy. </h6></a>
+    </div>
+  </div>
+
+  <div class="column major public inter">
     <div class="content">
       <a role="button" class="big-button" href= "projects/equitymap.html">
       <h7>Charlottesville Area Equity Indicators</h7>
@@ -141,41 +157,15 @@
     </div>
   </div>
 
-          <div class="column data paid">
-            <div class="content">
-              <a role="button" class="big-button" href= "projects/tjach.html">
-              <h7>Race & Homelessness in Charlottesville</h7>
-              <h6>Working with the Thomas Jefferson Area Coalition for the Homeless to
-                understand the effect of race on the experience of homelessness.</h6></a>
-            </div>
-          </div>
-    
-          <div class="column story paid">
-            <div class="content">
-              <a role="button" class="big-button" href= "projects/brightest.html">
-              <h7>DataforClimate: Brightest Research</h7>
-              <h6>Using data and research to inform progressive climate organizing and activism - 
-                focused on insights in political and communication strategy. </h6></a>
-            </div>
-          </div>
-                <div class="column data">
-            <div class="content">
-              <a role="button" class="big-button" href= "projects/caravan.html">
-              <h7>Evaluation of the Safe Shelter Collaborative </h7>
-              <h6>Analysis to understand use cases for a platform allowing providers serving 
-                survivors of domestic violence to share information and find emergency shelter.</h6></a>
-            </div>
-          </div>
- 
-      <div class="column data paid">
-        <div class="content">
-          <a role="button" class="big-button" href= "projects/pidl.html">
-            <h7>Public Interest Data Lab: Race in Child Welfare</h7>
-            <h6>Analyzed confidential foster care data to investigate claims of community claims of
-              racial disparity in the Charlottesville Child Welfare System.</h6></a>
-        </div>
-      </div>
-      <div class="column data">
+  <div class="column data">
+    <div class="content">
+      <a role="button" class="big-button" href= "projects/sunrise.html">
+      <h7>Engagement Patterns in Climate Justice</h7>
+      <h6>Working with the Boston Hub of the Sunrise Movement to understand patterns of engagement among members of the movement.</h6></a>
+    </div>
+  </div>
+
+      <div class="column data public">
         <div class="content">
           <a role="button" class="big-button" href= "projects/adm.html">
           <h7>Bicentennial <br> Data Analysis: Honor at UVA</h7>
@@ -183,7 +173,8 @@
             aggregate totals, 30 years of sanction data, and 6 years of reports.</h6></a>
         </div>
       </div>
-      <div class="column data comm">
+
+      <div class="column data">
         <div class="content">
           <a role="button" class="big-button" href= "projects/aclu.html">
           <h7>Colorado Bail & Incarceration Project</h7>
@@ -192,8 +183,16 @@
         </div>
       </div>
   
+      <div class="column data">
+        <div class="content">
+          <a role="button" class="big-button" href= "projects/caravan.html">
+          <h7>Evaluation of the Safe Shelter Collaborative </h7>
+          <h6>Analysis to understand use cases for a platform allowing providers serving 
+            survivors of domestic violence to share information and find emergency shelter.</h6></a>
+        </div>
+      </div>
 
-    <div class="column story inter">
+    <div class="column inter">
             <div class="content">
               <a role="button" class="big-button" href= "projects/gensquare.html">
               <h7>Mothers, Fathers, Daughters, Sons</h7>
@@ -201,6 +200,7 @@
                 educational attainment by gender of parents and children with data from the World Bank.</h6></a>
             </div>
           </div>
+
       <div class="column paid inter">
         <div class="content">
           <a role="button" class="big-button" href= "projects/shift.html">
@@ -210,11 +210,21 @@
         </div>
       </div>
 
+      <div class="column misc">
+        <div class="content">
+          <a role="button" class="big-button" href= "projects/dgl.html">
+          <h7>Digital Governance Lab at UVA</h7>
+          <h6>Teaching an undergraduate class on the technology of governance and the governance 
+            of technology to encourage students to engage with and pursue public interest technology.
+          </h6></a>
+        </div>
+      </div>
+
 </div>
 
 
 <script>
-    filterSelection("all")
+    filterSelection("major")
     function filterSelection(c) {
       var x, i;
       x = document.getElementsByClassName("column");

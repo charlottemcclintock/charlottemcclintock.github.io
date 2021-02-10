@@ -212,7 +212,7 @@ vert {
     padding-top: 45px;
     font-family: 'Noto Serif SC', serif;
     color: #000000;
-    margin-right: 50px;
+    margin-right: 250px;
 }
 
 .home {
@@ -281,7 +281,7 @@ vert {
     background-color: white;
 		width: 92%;
     color: black;
-    border: 1px solid white; /* Gray */
+    border: 1px solid black; /* Gray */
     padding: 20px 20px;
     text-align: left;
     text-decoration: none;
