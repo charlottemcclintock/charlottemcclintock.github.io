@@ -212,7 +212,7 @@ vert {
     padding-top: 45px;
     font-family: 'Noto Serif SC', serif;
     color: #000000;
-    margin-right: 250px;
+    margin-right: 20%
 }
 
 .home {
@@ -289,7 +289,7 @@ vert {
     font-size: 14px;
     -webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
-	height: 180px;
+	height: 20%;
 }
 
 .big-button:hover {
