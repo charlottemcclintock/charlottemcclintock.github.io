@@ -1,43 +1,42 @@
-
 /*----------------------------------------------------
 	1. SET TEXT STYLES
 ------------------------------------------------------*/
 /* @import url('https://fonts.googleapis.com/css?family=Fira+Sans:extralight,light,medium,regular,semibold,bold,bolditalic'); */
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
-@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i,800,800i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,500,600,700,900');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,500,600,700,900");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap");
 * {
-	padding:0;
-	margin:0;
+  padding: 0;
+  margin: 0;
 }
-html { font-size: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	text-rendering: optimizelegibility;
-	font-family: 'Noto Serif SC', serif;
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+  font-family: "Noto Serif SC", serif;
 }
 
 body {
-	color:#000000;
-	font-family: 'Noto Serif SC', serif;
-	font-weight: regular;
-	position:relative;
-	width:100%;
-	height:100%;
-	overflow: scroll;
-	overflow-x: hidden;
-	-webkit-font-smoothing: antialiased;
-
+  color: #000000;
+  font-family: "Noto Serif SC", serif;
+  font-weight: regular;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 a {
-	text-decoration:underline;
-	color:#000;
-	/* outline:none; */
-	font-weight: 400;
+  text-decoration: underline;
+  color: #000;
+  /* outline:none; */
+  font-weight: 400;
 }
 /* b {
 	text-decoration:none;
@@ -55,48 +54,48 @@ a {
 } */
 
 h1 {
-	font-family: 'Noto Serif SC', serif;
-	font-size: 30px;
-	font-weight: bold;
-	line-height: 34px;
-	padding-bottom: 5px;
+  font-family: "Noto Serif SC", serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 34px;
+  padding-bottom: 5px;
 }
 h2 {
-	font-family: 'Noto Serif SC', serif;
-	font-size: 14px;
-	font-style: italic;
-	font-weight: 400;
-	line-height: 15px;
+  font-family: "Noto Serif SC", serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 15px;
   padding-bottom: 3px;
 }
 
 h6 {
-	font-family: 'Noto Serif SC', serif;
-	font-size: 14px;
-	font-style: regular;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 18px;
-	padding-top: 5px;
+  font-family: "Noto Serif SC", serif;
+  font-size: 14px;
+  font-style: regular;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 18px;
+  padding-top: 5px;
 }
 
 h7 {
-	font-family: 'Noto Serif SC', serif;
-	font-size: 24px;
-	font-style: regular;
-	font-variant: normal;
-	font-weight: 900;
-	line-height: 24px;
-	padding-bottom: 20px;
+  font-family: "Noto Serif SC", serif;
+  font-size: 24px;
+  font-style: regular;
+  font-variant: normal;
+  font-weight: 900;
+  line-height: 24px;
+  padding-bottom: 20px;
 }
 
 p {
-	font-family: 'Noto Serif SC', serif;
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 250;
-	line-height: 20px;
+  font-family: "Noto Serif SC", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 250;
+  line-height: 20px;
   padding-top: 10px;
 }
 
@@ -106,108 +105,112 @@ p {
 
 /* The sidebar menu */
 .sidenav {
-    width: 17%; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 100px;
-    padding-left: 60px;
+  width: 17%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 100px;
+  padding-left: 60px;
 }
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 6px 40% 6px 16px;
-    text-decoration: none;
-		text-align: right;
-		font-family: 'Noto Serif SC', serif;
-    font-size: 16px;
-    color: #000000;
-    display: block;
+  padding: 6px 40% 6px 16px;
+  text-decoration: none;
+  text-align: right;
+  font-family: "Noto Serif SC", serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav e:hover {
-		font-style: italic;
-		text-decoration: underline;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 /* Style page content */
 .main {
-    margin-left: 20%; /* Same as the width of the sidebar */
-    padding-top: 100px;
-    font-family: 'Noto Serif SC', serif;
-    color: #000000;
-    margin-right: 20%;
+  margin-left: 20%; /* Same as the width of the sidebar */
+  padding-top: 100px;
+  font-family: "Noto Serif SC", serif;
+  color: #000000;
+  margin-right: 20%;
 }
 
 .main z:hover {
-	background-color: black; /* Gray */
-	color: white;
+  background-color: black; /* Gray */
+  color: white;
 }
 
 .portfolio {
-    margin-left: 285px; /* Same as the width of the sidebar */
-    padding-top: 45px;
-    font-family: 'Noto Serif SC', serif;
-    color: #000000;
-    margin-right: 20%
+  margin-left: 285px; /* Same as the width of the sidebar */
+  padding-top: 45px;
+  font-family: "Noto Serif SC", serif;
+  color: #000000;
+  margin-right: 20%;
 }
 
 /* project page styling */
 .home {
-    margin-left: 20%; 
-    padding-top: 9%;
-    font-family: 'Noto Serif SC', serif;
-    color: #000000;
-    margin-right: 35%;
+  margin-left: 20%;
+  padding-top: 9%;
+  font-family: "Noto Serif SC", serif;
+  color: #000000;
+  margin-right: 35%;
 }
 
 /* index page styling */
 .index {
-    margin-left: 20%; /* Same as the width of the sidebar */
-    padding-top: 6%;
-    font-family: 'Noto Serif SC', serif;
-    color: #000000;
-    margin-right: 30%;
+  margin-left: 20%; /* Same as the width of the sidebar */
+  padding-top: 6%;
+  font-family: "Noto Serif SC", serif;
+  color: #000000;
+  margin-right: 30%;
 }
 
 .about {
-    margin-left: 20%; /* Same as the width of the sidebar */
-		padding-top: 8%;
-    font-family: 'Noto Serif SC', serif;
-    color: #000000;
-    margin-right: 32%;
+  margin-left: 20%; /* Same as the width of the sidebar */
+  padding-top: 8%;
+  font-family: "Noto Serif SC", serif;
+  color: #000000;
+  margin-right: 32%;
 }
-
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 16px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 16px;
+  }
 }
 
 /*----------------------------------------------------
 	BLACK AND WHITE MAIN BUTTON
 ------------------------------------------------------*/
 .button1 {
-    background-color: white;
-    color: black;
-    border: 1px solid black; 
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-		font-weight: light;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: light;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .button1:hover {
-    background-color: black; 
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 /*----------------------------------------------------
@@ -215,83 +218,82 @@ p {
 ------------------------------------------------------*/
 
 .big-button {
-    background-color: white;
-		width: 92%;
-    color: black;
-    border: 1px solid black; /* Gray */
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-	transition-duration: 0.4s;
-	width : auto;
-	min-width: 225px;
-	min-height: 200px;
-    padding:20px 20px 20px 20px ;
-	z-index: 1;
+  background-color: white;
+  width: 92%;
+  color: black;
+  border: 1px solid black; /* Gray */
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  width: auto;
+  min-width: 225px;
+  min-height: 200px;
+  padding: 20px 20px 20px 20px;
+  z-index: 1;
 }
 
 .big-button:hover {
-    background-color: black; /* Gray */
-    color: white;
-		}
+  background-color: black; /* Gray */
+  color: white;
+}
 
 /*----------------------------------------------------
 	4. PORTFOLIO SCALING
 ------------------------------------------------------*/
 
 .row {
-    margin: 0px -16px;
+  margin: 0px -16px;
 }
 
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-    padding: 2px;
+  padding: 2px;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 32%;
-	display: none; /* Hide all elements by default */
+  float: left;
+  width: 32%;
+  display: none; /* Hide all elements by default */
 }
 
 /* Clear floats after rows */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Content */
 .content {
-    background-color: white;
-    padding: 5px;
+  background-color: white;
+  padding: 5px;
 }
 
 @media screen and (max-width: 1300px) {
-    .column {
-        width: 45%;
-    }}
-
-@media screen and (max-width: 1000px) {
-    .column {
-        width: 49%;
-    }}
-
-@media screen and (max-width: 950px) {
-    .column {
-        width: 100%;
-    }}
-
-
-.center-block {
-   margin-left:auto;
-   margin-right:auto;
-   display:block;
+  .column {
+    width: 45%;
+  }
 }
 
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 49%;
+  }
+}
 
+@media screen and (max-width: 950px) {
+  .column {
+    width: 100%;
+  }
+}
 
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

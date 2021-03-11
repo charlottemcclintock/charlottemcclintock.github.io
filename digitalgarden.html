@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!-- Metas Page details-->
+  <title>Charlotte McClintock</title>
+  <meta name="description" content="OnePage Resume Portfolio" />
+  <meta name="author" content="" />
+  <!-- Mobile Specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--main style-->
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="css/portfolio.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="garden/garden.css"
+  />
+
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="favicon/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="favicon/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="favicon/favicon-16x16.png"
+  />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <style></style>
+</head>
+
+<body>
+  <!-- Side navigation -->
+  <div class="sidenav">
+    <a href="index.html" style="padding-top: 55%"><e>about me</e></a>
+    <a href="portfolio.html"><e>work & projects</e></a>
+    <a href="digitalgarden.html"
+      ><e style="text-decoration: underline">digital garden of ideas</e></a
+    >
+    <a href="contact.html"><e>say hi!</e></a>
+  </div>
+
+  <div>
+    <!-- Page content -->
+    <div class="portfolio">
+      <div style="padding-left: 0px">
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')">
+            show all
+          </button>
+          <button class="btn" onclick="filterSelection('book')">
+            books i'm reading in 2021
+          </button>
+          <button class="btn" onclick="filterSelection('complexity')">
+            complexity
+          </button>
+          <button class="btn" onclick="filterSelection('earth')">
+            climate & ecology
+          </button>
+          <button class="btn" onclick="filterSelection('history')">
+            histories
+          </button>
+          <button class="btn" onclick="filterSelection('future')">
+            futures
+          </button>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+      <br />
+
+      <div class="row">
+        <div class="column data">
+          <div class="box">
+            <strong>Currently Reading: </strong> How To Do Nothing by Jenny
+            Odell <br />
+            <br />
+            <strong>Up Next: </strong>
+            <ul style="padding-left: 10px">
+              <li>Open Veins of Latin America by Eduardo Galeano</li>
+              <li>Decolonizing Methodologies by Linda Tuhiwai Smith</li>
+            </ul>
+            <br />
+            <strong>Just Finished: </strong> How To Bl*w Up a Pipeline by
+            Andreas Malm
+          </div>
+        </div>
+
+        <div class="column complexity earth history future books">
+          <div class="content">
+            <a
+              role="button"
+              class="garden-button"
+              href="garden/tsing-mushroom.html"
+              ><div class="container">
+                <img
+                  src="garden/img/tsing.jpeg"
+                  alt="mushroom book"
+                  class="image"
+                />
+                <div class="overlay">
+                  <div class="text">
+                    <g1>The Mushroom at the End of the World</g1><br />
+                    <g2>Anna Lowenhaupt Tsing</g2>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="column complexity history book">
+          <div class="content">
+            <a
+              role="button"
+              class="garden-button"
+              href="garden/klein-shockdoctrine.html"
+              ><div class="container">
+                <img
+                  src="garden/img/klein.jpeg"
+                  alt="shock doctrine"
+                  class="image"
+                />
+                <div class="overlay">
+                  <div class="text">
+                    <g1>The Shock Doctrine</g1><br />
+                    <g2>Naomi Klein</g2>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end garden -->
+    </div>
+  </div>
+
+  <!-- javascript for filter buttons -->
+</body>
+
+<script src="filter-garden.js"></script>
