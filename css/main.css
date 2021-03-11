@@ -20,6 +20,7 @@ html { font-size: 100%;
 	text-rendering: optimizelegibility;
 	font-family: 'Noto Serif SC', serif;
 }
+
 body {
 	color:#000000;
 	font-family: 'Noto Serif SC', serif;
@@ -38,20 +39,20 @@ a {
 	outline:none;
 	font-weight: 400;
 }
-b {
+/* b {
 	text-decoration:none;
 	color:#fff;
 	outline:none;
 	font-weight: bold;
-}
+} */
 
-i { 
+/* i { 
 	text-style: italic;
-}
+} */
 
-img {
+/* img {
 	max-width:100%;
-}
+} */
 
 h1 {
 	font-family: 'Noto Serif SC', serif;
@@ -250,19 +251,19 @@ vert {
 }
 
 /*----------------------------------------------------
-	4. BUTTONS
+	BLACK AND WHITE MAIN BUTTON
 ------------------------------------------------------*/
 .button1 {
     background-color: white;
     color: black;
-    border: 1px solid black; /* Gray */
+    border: 1px solid black; 
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 		font-weight: light;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
 
@@ -272,10 +273,13 @@ vert {
 }
 
 .button1:hover {
-    background-color: black; /* Gray */
+    background-color: black; 
     color: white;
 }
 
+/*----------------------------------------------------
+	PORTFOLIO BUTTONS
+------------------------------------------------------*/
 
 .big-button {
     background-color: white;
@@ -289,7 +293,10 @@ vert {
     -webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
 	width : auto;
+	min-width: 225px;
+	min-height: 200px;
     padding:20px 20px 20px 20px ;
+	z-index: 1;
 }
 
 .big-button:hover {
@@ -298,26 +305,8 @@ vert {
 		}
 
 /*----------------------------------------------------
-	4. PORTFOLIO STUFF
+	4. PORTFOLIO SCALING
 ------------------------------------------------------*/
-
-/* .logo {
--webkit-filter: grayscale(100%);
--webkit-transition: .5s ease-in-out;
--moz-filter: grayscale(100%);
--moz-transition: .5s ease-in-out;
--o-filter: grayscale(100%);
--o-transition: .5s ease-in-out;
-}
-
-.logo:hover {
--webkit-filter: grayscale(0%);
--webkit-transition: .5s ease-in-out;
--moz-filter: grayscale(0%);
--moz-transition: .5s ease-in-out;
--o-filter: grayscale(0%);
--o-transition: .5s ease-in-out;
-} */
 
 .row {
     margin: 0px -16px;
@@ -349,20 +338,27 @@ vert {
     padding: 5px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
     .column {
-        width: 50%;
-    }
+        width: 45%;
+    }}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 49%;
+    }}
+
+@media screen and (max-width: 950px) {
     .column {
         width: 100%;
-}
+    }}
+
 
 .center-block {
    margin-left:auto;
    margin-right:auto;
    display:block;
 }
+
+
+
