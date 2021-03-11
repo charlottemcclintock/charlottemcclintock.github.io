@@ -45,8 +45,8 @@ b {
 	font-weight: bold;
 }
 
-i {
-text-style: italic;
+i { 
+	text-style: italic;
 }
 
 img {
@@ -282,14 +282,14 @@ vert {
 		width: 92%;
     color: black;
     border: 1px solid black; /* Gray */
-    padding: 20px 20px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
     -webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
-	height: 20%;
+	width : auto;
+    padding:20px 20px 20px 20px ;
 }
 
 .big-button:hover {
@@ -333,6 +333,7 @@ vert {
 .column {
     float: left;
     width: 32%;
+	display: none; /* Hide all elements by default */
 }
 
 /* Clear floats after rows */
@@ -365,4 +366,3 @@ vert {
    margin-right:auto;
    display:block;
 }
-
