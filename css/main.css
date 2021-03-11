@@ -34,9 +34,9 @@ body {
 
 }
 a {
-	text-decoration:none;
-	color:#fff;
-	outline:none;
+	text-decoration:underline;
+	color:#000;
+	/* outline:none; */
 	font-weight: 400;
 }
 /* b {
@@ -70,31 +70,6 @@ h2 {
   padding-bottom: 3px;
 }
 
-h3 {
-	font-family: 'Noto Serif SC', serif;
-	font-size: 20px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 700;
-	line-height: 24px;
-	padding-bottom: 7px;
-
-}
-h4 {
-	font-family: 'Noto Serif SC', serif;
-	font-size: 20px;
-	font-style: italic;
-	font-weight: 500;
-	line-height: 20px;
-}
-h5 {
-	font-family: 'Noto Serif SC', serif;
-	font-size: 16px;
-	font-style: regular;
-	font-weight: 800;
-	line-height: 19px;
-	padding-top: 6px;
-}
 h6 {
 	font-family: 'Noto Serif SC', serif;
 	font-size: 14px;
@@ -267,10 +242,10 @@ vert {
     transition-duration: 0.4s;
 }
 
-.intext {
+/* .intext {
 	color: black; 
 	text-decoration: underline
-}
+} */
 
 .button1:hover {
     background-color: black; 
