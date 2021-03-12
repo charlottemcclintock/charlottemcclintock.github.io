@@ -1,5 +1,5 @@
 img {
-  border: 1px solid #000;
+  border: 0px solid #000;
   /* padding: 10px; */
 }
 
@@ -22,7 +22,7 @@ img {
 
 .image {
   display: block;
-  width: 250px;
+  width: 260px;
 }
 
 .overlay {
@@ -79,11 +79,9 @@ img {
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   width: auto;
   min-width: 225px;
-  min-height: 200px;
+  min-height: 220px;
   padding: 20px 20px 20px 20px;
   z-index: 1;
 }
@@ -106,4 +104,25 @@ g2 {
   font-weight: 500;
   line-height: 13px;
   /* padding-top: 5px; */
+}
+
+.note {
+  background-color: white;
+  width: 92%;
+  color: black;
+  border: 1px solid black; /* Gray */
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  width: auto;
+  min-width: 225px;
+  min-height: 220px;
+  padding: 20px 20px 20px 20px;
+  z-index: 1;
+}
+
+.note:hover {
+  background-color: black; /* Gray */
+  color: white;
 }

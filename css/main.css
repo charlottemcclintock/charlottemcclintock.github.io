@@ -219,7 +219,7 @@ p {
 
 .big-button {
   background-color: white;
-  width: 92%;
+  width: 100%;
   color: black;
   border: 1px solid black; /* Gray */
   text-align: left;
@@ -251,13 +251,13 @@ p {
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 2px;
+  padding: 8px;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 32%;
+  width: 31%;
   display: none; /* Hide all elements by default */
 }
 
@@ -271,7 +271,8 @@ p {
 /* Content */
 .content {
   background-color: white;
-  padding: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
 }
 
 @media screen and (max-width: 1300px) {
