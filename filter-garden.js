@@ -2,9 +2,9 @@ filterSelection("all");
 function filterSelection(c) {
   console.log("called");
   if (c != "all") {
-    document.getElementById("buds").style.visibility = "hidden";
+    document.getElementById("buds").style.display = "none";
   } else {
-    document.getElementById("buds").style.visibility = "visible";
+    document.getElementById("buds").style.display = "block";
   }
   var x, i;
   x = document.getElementsByClassName("column");
