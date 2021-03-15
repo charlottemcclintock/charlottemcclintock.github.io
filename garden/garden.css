@@ -22,7 +22,7 @@ img {
 
 .image {
   display: block;
-  width: 260px;
+  width: 255px;
 }
 
 .overlay {
@@ -67,7 +67,7 @@ img {
   width: auto;
   min-width: 225px;
   min-height: 200px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .box {
@@ -125,4 +125,15 @@ g2 {
 .note:hover {
   background-color: black; /* Gray */
   color: white;
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  z-index: 1;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
