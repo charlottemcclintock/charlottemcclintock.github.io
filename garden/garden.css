@@ -1,5 +1,5 @@
 img {
-  border: 0px solid #000;
+  border: 1px solid #000;
   /* padding: 10px; */
 }
 
@@ -57,7 +57,7 @@ img {
   background-color: white;
   width: 92%;
   color: black;
-  border: 1px solid black; /* Gray */
+  /* border: 1px solid black; */
   text-align: left;
   text-decoration: none;
   display: inline-block;
