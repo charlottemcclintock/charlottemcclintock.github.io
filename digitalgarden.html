@@ -9,6 +9,11 @@
   <!-- Mobile Specific Metas-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!--main style-->
+
+  <!-- javascript packages -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+
+
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   <link
     rel="stylesheet"
@@ -98,8 +103,13 @@
       context of my recent work on jail decarceration, the public (mis)use of important data, and the distribution of public lands in the US</p>
 </div>
 
-      <div class="row">
-        <div class="column data">
+<br/>
+
+
+<div class="grid" id='specialgrid' data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 270 }'>
+
+    <div class="grid-item">
+
           <div class="content">
             <div class="box">
               <strong>Currently Reading: </strong> How To Do Nothing by Jenny
@@ -115,11 +125,12 @@
               Andreas Malm
             </div>
           </div>
-        </div>
+      </div>
 
 
-          <div class="column flowers">
-            <div class="content zoom">
+
+          <div class="grid-item zoom flowers">
+            <div class="content">
               <a
                 role="button"
                 class="garden-button"
@@ -134,7 +145,7 @@
           </div>
   
 
-        <div class="column futures notes">
+        <div class="grid-item futures notes">
           <div class="content">
             <a role="button" class="note" href="garden/radical-ideas.html">
               <h7>seeds for radical practices & ideas</h7>
@@ -143,7 +154,7 @@
           </div>
         </div>
 
-        <div class="column complexity earth history future books">
+        <div class="grid-item complexity earth history future books">
           <div class="content">
             <a
               role="button"
@@ -165,7 +176,7 @@
           </div>
         </div>
 
-        <div class="column notes">
+        <div class="grid-item notes">
           <div class="content">
             <a role="button" class="note" href="garden/garden-meta.html">
               <h7>starting a digital garden</h7>
@@ -176,7 +187,7 @@
 
 
 
-        <div class="column complexity history book">
+        <div class="grid-item complexity history book">
           <div class="content">
             <a
               role="button"
@@ -199,7 +210,7 @@
           </div>
         </div>
         
-        <div class="column flowers">
+        <div class="grid-item flowers">
           <div class="content zoom">
             <a
               role="button"
@@ -214,7 +225,7 @@
           </div>
         </div>
 
-        <div class="column notes">
+        <div class="grid-item notes">
           <div class="content">
             <a role="button" class="note" href="garden/croutons.html">
               <h7>on croutons & capitalist excess</h7>
@@ -223,7 +234,7 @@
           </div>
         </div>
 
-        <div class="column flowers">
+        <div class="grid-item flowers">
           <div class="content zoom">
             <a
               role="button"
@@ -239,7 +250,7 @@
         </div>
 
 
-        <div class="column futures notes">
+        <div class="grid-item futures notes">
           <div class="content">
             <a role="button" class="note" href="garden/public-lands.html">
               <h7>distribution of public lands in the US</h7>
@@ -260,3 +271,5 @@
 </body>
 
 <script src="filter-garden.js"></script>
+
+

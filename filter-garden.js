@@ -1,41 +1,33 @@
-filterSelection("all");
+var msnry = new Masonry(document.getElementById("specialgrid"), {
+  //options
+  itemSelector: ".grid-item",
+  columnWidth: 270,
+});
+
 function filterSelection(c) {
-  console.log("called");
+  helper("all", msnry);
+  helper(c, msnry);
+}
+
+function helper(c, msnry) {
   if (c != "all") {
     document.getElementById("buds").style.display = "none";
   } else {
     document.getElementById("buds").style.display = "block";
   }
+
   var x, i;
-  x = document.getElementsByClassName("column");
+  x = document.getElementsByClassName("grid-item");
   if (c == "all") c = "";
+  console.log("cleared");
   for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
+    x[i].style.display = "none";
 
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
+    if (x[i].className.includes(c)) {
+      x[i].style.display = "block";
     }
   }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
+  msnry.layout();
 }
 
 // Add active class to the current button (highlight it)
